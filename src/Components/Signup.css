@@ -1,0 +1,95 @@
+
+body{
+  /* text-align: center; */
+  
+}
+.signup-back{
+ text-align: center;
+  height: 600px;
+  background: linear-gradient(to left,rgb(205, 153, 224),rgb(200, 200, 239));
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 20px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; */
+}
+.signup-img{
+ margin-top: 100px;
+}
+.signup-img img{
+  margin-top: 50px;
+  width: 200px;
+  border-radius: 20px;
+}
+.signup-container {
+  max-width: 400px;
+  margin: 50px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  height: 50px;
+  padding: 10px;
+  width: 400px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+  text-align: center;
+
+}
+input:hover{
+  background:linear-gradient(to right, rgba(201, 192, 192, 0.51) ,white );
+ 
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* OTP Popup */
+.otp-popup {
+  position: fixed;
+  top: 20px;
+  right: -300px;
+  background-color: #c3d9cc;
+  color: rgb(33, 32, 32);
+  padding: 15px 25px;
+  border-radius: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  z-index: 1000;
+  min-width: 260px;
+  animation: slideInRight 0.5s forwards;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Slide animation */
+@keyframes slideInRight {
+  to {
+    right: 20px;
+  }
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: rgb(22, 21, 21);
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
